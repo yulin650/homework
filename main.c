@@ -4,14 +4,14 @@
 
 int main(void)
 {
-	int i,j;
-	for(i=1;i<11;i++)
+	int VariableOne,VariableTwo;
+	for(VariableOne=1;VariableOne<11;VariableOne++)
 	{
-		printf("%d ",i);
+		printf("%d ",VariableOne);
 	}
 	printf("\n");
-	for(j=10;j>0;j--)
+	for(VariableTwo=10;VariableTwo>0;VariableTwo--)
 	{
-		printf("%d ",j);
+		printf("%d ",VariableTwo);
 	}
 }
